@@ -108,3 +108,8 @@ ENV/
 
 # Node project dependencies and settings
 node_modules/
+
+# removed because they are instructor only
+**/LessonPlan.md 
+./02-Homeworks/*/Solutions
+./02-Homeworks/*/gradingRubrics
