@@ -8,7 +8,6 @@ Here we learn the Modulo operator. Modulo gives the remainder when dividing by a
 ```vb
 <number> Mod <divisor>
 ```
-
 ie:
 `4 Mod 2` will return 0
 
