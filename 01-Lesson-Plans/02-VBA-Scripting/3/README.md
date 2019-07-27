@@ -16,17 +16,19 @@ There will be a series of lessons in a class. Each lesson will consist of a seri
 
  ## For this specfic class
  We will have 5 lessons:
- - 10    - 10:45    Nested For Loops
-    - 10:30         - Lecture
- - 10:45 - 11:30    Sorting
-    - 11:15         - Lecture
- - 11:30 - 12:15    Functions
-    - 12:00         - Lecture
- - 12:15 - 1        Imperative vs. Declarative
-    - 12:45         - Lecture
- - 1 - 1:45         Lunch
- - 1:45 - 2:30      Stochastic Systems
-    - 2:15          - Lecture
+ - 10:00 - Nested For Loops
+ - 10:40 - Sorting
+ - 11:20 - Functions
+ - 12:00 - Imperative vs. Declarative
+ - 12:40 - Lunch
+ -  1:20 - Stochastic Systems
+
+ 40min is should be broken into 5 parts
+ - start activity
+ - slow live coding hints
+ - live coding solution
+ - lecture
+ - buffer
 
 The last two are the advanced topics.
 Lunch can be swapped for 12:15
