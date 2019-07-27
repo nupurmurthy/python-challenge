@@ -1,5 +1,12 @@
 # Fibonacci
-The fibonnaci sequence is defined by f(n) = f(n-1) + f(n-2) with f(0) = 0, f(1) = 1
+The fibonnaci sequence is defined by 
+f(n) = f(n-1) + f(n-2) with f(0) = 0, f(1) = 1
+
+f(0) = 0
+f(1) = 1
+f(2) = f(1) + f(0) = 1 + 0 = 1
+f(3) = f(2) + f(1) = 1 + 1 = 2
+f(4) = 3
 
 
 ## Part 1
