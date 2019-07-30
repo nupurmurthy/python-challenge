@@ -1,6 +1,8 @@
 
 
 Sub chess()
+    Range("A1:H8").Value = ""
+    
     back_pieces = Array("Rook", "Knight", "Bishop", "King", "Queen", "Bishop", "Knight", "Rook")
     
     For i = 1 To 8
