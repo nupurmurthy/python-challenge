@@ -30,12 +30,14 @@ End Sub
 
 
 Sub step_piece()
-    Pick_Up_Arr = Array("D2", "D7")
-    Drop_Off_arr = Array("D4", "D5")
+    Pick_Up_Arr = Array("D2", "D7", "C1", "E7", "E1", "G8", "C3")
+    Drop_Off_arr = Array("D4", "D5", "F4", "E6", "C3", "F6", "C7")
 
     Range(Drop_Off_arr(step_counter)).Value = Range(Pick_Up_Arr(step_counter)).Value
     Range(Pick_Up_Arr(step_counter)).Value = ""
     step_counter = step_counter + 1
 
-
+    If step_counter = 7 Then
+        MsgBox ("check mate")
+    End If
 End Sub
