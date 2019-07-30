@@ -25,5 +25,9 @@ Sub chess()
 End Sub
 
 Sub step_piece()
-    MsgBox ("hello world")
+    PickUp = "D2"
+    DropOff = "D4"
+
+    Range(DropOff).Value = Range(PickUp).Value
+    Range(PickUp).Value = ""
 End Sub
