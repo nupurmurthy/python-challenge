@@ -10,13 +10,17 @@ Sub chess()
     Range("A7:H7").Value = "Pawn"
 
 
-    For i = 1 To 8
-        For j = 1 To 8
+    For i = 1 To 8 ' Row
+        For j = 1 To 8 ' Columns
+            If i Mod 2 = 0 And j Mod 2 = 0 Then
+                Cells(i, j).Interior.ColorIndex = 37
+            ElseIf i Mod 2 = 1 And j Mod 2 = 1 Then
+                Cells(i, j).Interior.ColorIndex = 37
+
+            End If
         Next j
     Next i
 
-    If True Then
-        MsgBox ("hello")
-    End If
+
     MsgBox ("Finished")
 End Sub
