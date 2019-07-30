@@ -11,5 +11,11 @@ Sub custom_sort()
             smallest_value = next_value
         End If
     Next i
+
+    temp = Cells(smallest_index, 1).Value
+    Cells(smallest_index, 1).Value = Cells(1, 1).Value
+    Cells(1, 1).Value = temp
+
     MsgBox (smallest_index)
+
 End Sub
