@@ -7,12 +7,6 @@
 * [1.1 Zen Of Data](https://drive.google.com/open?id=1HH3JSR1lc2thAZNBq_TIC56Soi830DMmpHMA2EU_iIY)
 * [1.2 Egad Excel](https://drive.google.com/open?id=1mST2NbkvWet_eAN2NM7KH13PFZVeWud-4mqTgTXTRWw)
 
-### Lesson Plans
-
-* [1.1 Lesson Plan](../../01-Lesson-Plans/01-Excel/1/LessonPlan.md)
-* [1.2 Lesson Plan](../../01-Lesson-Plans/01-Excel/2/LessonPlan.md)
-* [1.3 Lesson Plan](../../01-Lesson-Plans/01-Excel/3/LessonPlan.md)
-
 ### Homework
 
 * [Homework Instructions](../../02-Homework/01-Excel/Instructions/README.md)
