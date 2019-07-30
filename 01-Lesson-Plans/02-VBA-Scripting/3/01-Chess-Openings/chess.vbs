@@ -27,9 +27,11 @@ Sub chess()
 End Sub
 
 Sub step_piece()
-    PickUp = "D2"
-    DropOff = "D4"
+    Pick_Up_Arr = Array("D2")
+    Drop_Off_arr = Array("D4")
 
-    Range(DropOff).Value = Range(PickUp).Value
-    Range(PickUp).Value = ""
+    Range(Drop_Off_arr(0)).Value = Range(Pick_Up_Arr(0)).Value
+    Range(Pick_Up_Arr(0)).Value = ""
+
+
 End Sub
