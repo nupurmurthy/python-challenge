@@ -58,6 +58,11 @@ Next i
 4 Mod 2
 ```
 
+ - Color Index is used to color in a cell
+```vb
+Range("A1").Interior.ColorIndex = 37
+```
+
 ## 2.3.1.3
 Pick a chess opening. Have pressing a button make the next step in the function
 ### Tools
