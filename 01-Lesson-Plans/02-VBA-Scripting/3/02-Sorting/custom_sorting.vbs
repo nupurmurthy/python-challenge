@@ -1,21 +1,26 @@
 Sub custom_sort()
 
-    Dim arr(9) As Integer
-    smallest_index = 1
-    smallest_value = Cells(1, 1).Value
+    For j = 1 To 9 ' place we are looking to fill, ith place
+        smallest_index = j
+        smallest_value = Cells(j, 1).Value
+        MsgBox (j)
 
-    For i = 2 To 9
-        next_value = Cells(i, 1).Value
-        If next_value < smallest_value Then
-            smallest_index = i
-            smallest_value = next_value
-        End If
-    Next i
 
-    temp = Cells(smallest_index, 1).Value
-    Cells(smallest_index, 1).Value = Cells(1, 1).Value
-    Cells(1, 1).Value = temp
+        For i = (j + 1) To 9
+            next_value = Cells(i, 1).Value
+            If next_value < smallest_value Then
+                smallest_index = i
+                smallest_value = next_value
+            End If
+        Next i
 
-    MsgBox (smallest_index)
+        temp = Cells(smallest_index, 1).Value
+        Cells(smallest_index, 1).Value = Cells(j, 1).Value
+        Cells(j, 1).Value = temp
+
+    Next j
+
+
+
 
 End Sub
