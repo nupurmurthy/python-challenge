@@ -30,11 +30,12 @@ End Sub
 
 
 Sub step_piece()
-    Pick_Up_Arr = Array("D2")
-    Drop_Off_arr = Array("D4")
+    Pick_Up_Arr = Array("D2", "D7")
+    Drop_Off_arr = Array("D4", "D5")
 
     Range(Drop_Off_arr(step_counter)).Value = Range(Pick_Up_Arr(step_counter)).Value
     Range(Pick_Up_Arr(step_counter)).Value = ""
+    step_counter = step_counter + 1
 
 
 End Sub
