@@ -1,3 +1,5 @@
+
+
 Sub chess()
     back_pieces = Array("Rook", "Knight", "Bishop", "King", "Queen", "Bishop", "Knight", "Rook")
     
@@ -22,3 +24,6 @@ Sub chess()
     MsgBox ("Finished")
 End Sub
 
+Sub step_piece()
+    MsgBox ("hello world")
+End Sub
