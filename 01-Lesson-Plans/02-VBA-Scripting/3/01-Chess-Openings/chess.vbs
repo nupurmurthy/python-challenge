@@ -10,5 +10,13 @@ Sub chess()
     Range("A7:H7").Value = "Pawn"
 
 
+    For i = 1 To 8
+        For j = 1 To 8
+        Next j
+    Next i
+
+    If True Then
+        MsgBox ("hello")
+    End If
     MsgBox ("Finished")
 End Sub
