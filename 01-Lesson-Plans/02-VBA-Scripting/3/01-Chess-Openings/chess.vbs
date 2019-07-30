@@ -5,7 +5,10 @@ Sub chess()
         Cells(1, i).Value = back_pieces(i - 1)
         Cells(8, i).Value = back_pieces(i - 1)
     Next i
-    MsgBox ("Finished")
 
-    
+    Range("A2:H2").Value = "Pawn"
+    Range("A7:H7").Value = "Pawn"
+
+
+    MsgBox ("Finished")
 End Sub
