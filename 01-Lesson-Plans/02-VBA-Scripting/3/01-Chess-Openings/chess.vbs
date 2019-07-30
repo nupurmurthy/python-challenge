@@ -12,9 +12,8 @@ Sub chess()
 
     For i = 1 To 8 ' Row
         For j = 1 To 8 ' Columns
-            If i Mod 2 = 0 And j Mod 2 = 0 Then
-                Cells(i, j).Interior.ColorIndex = 37
-            ElseIf i Mod 2 = 1 And j Mod 2 = 1 Then
+
+            If i Mod 2 = j Mod 2 Then
                 Cells(i, j).Interior.ColorIndex = 37
 
             End If
