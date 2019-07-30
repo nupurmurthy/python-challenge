@@ -12,10 +12,8 @@ Sub chess()
 
     For i = 1 To 8 ' Row
         For j = 1 To 8 ' Columns
-
-            If i Mod 2 = j Mod 2 Then
+            If (i + j) Mod 2 = 0 Then
                 Cells(i, j).Interior.ColorIndex = 37
-
             End If
         Next j
     Next i
@@ -23,3 +21,4 @@ Sub chess()
 
     MsgBox ("Finished")
 End Sub
+
