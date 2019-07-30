@@ -1,3 +1,4 @@
+Dim step_counter As Integer
 
 
 Sub chess()
@@ -22,16 +23,18 @@ Sub chess()
         Next j
     Next i
 
+    step_counter = 0
 
     MsgBox ("Finished")
 End Sub
+
 
 Sub step_piece()
     Pick_Up_Arr = Array("D2")
     Drop_Off_arr = Array("D4")
 
-    Range(Drop_Off_arr(0)).Value = Range(Pick_Up_Arr(0)).Value
-    Range(Pick_Up_Arr(0)).Value = ""
+    Range(Drop_Off_arr(step_counter)).Value = Range(Pick_Up_Arr(step_counter)).Value
+    Range(Pick_Up_Arr(step_counter)).Value = ""
 
 
 End Sub
